@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style(form).css">
+    <title>Application</title>
+    <style>
+        body{
+            background-color: #FFFCF6;
+        }
+        .block1{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 30px;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+        nav li {
+            margin-right: 50px;
+            font-size: 16px;
+            color: #1B3B36;
+        }
+        .logo{
+            margin-top: 15px;
+        }
+        .title{
+            font-family: 'Felidae';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            text-transform: capitalize;
+            color: #1B3B36;
+            text-decoration: none;
+        }
+        nav a {
+            font-family: 'ABeeZee';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #1B3B36;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .tel{
+            font-family: 'ABeeZee';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #1B3B36;
+        }
+        .address1{
+            margin-top:0;
+            display: flex;
+            justify-content: right;
+            font-family: 'ABeeZee';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #FCD043;
+        }
+        .main_title{
+            font-family: 'Felidae';
+            margin-top:20px;
+            margin-bottom: 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 150px;
+            display: flex;
+            align-items: center;
+            color: #1B3B36;
+
+        }
+        .block2{
+            margin-left: 30px;
+            display:flex;
+            justify-content: space-between;
+        }
+        label{
+            margin-left:40px;
+            font-family: 'ABeeZee';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 92px;
+            color: #232323;
+            opacity: 0.64;
+        }
+
+        input{
+            margin-left: 20px;
+            margin-top: 25px;
+            width: 300px;
+            height: 45px;
+            font-family: 'Felidae';
+            font-style: normal;
+            background: #232323;
+            border-radius: 25px;
+            border: 2px solid #797A7E;
+            font-weight: 400;
+            font-size: 24px;
+            color: #FFFCF6;
+            padding-left:10px;
+        }
+        .answers{
+            margin-right: 300px;
+            line-height: 84px;
+        }
+        .application{
+            width: 1255px;
+            display:flex;
+            justify-content: space-between;
+        }
+        select{
+            margin-left: 20px;
+            margin-top: 25px;
+            width: 320px;
+            height: 50px;
+            font-family: 'Felidae';
+            font-style: normal;
+            background: #232323;
+            border-radius: 25px;
+            border: 2px solid #797A7E;
+            font-weight: 400;
+            font-size: 24px;
+            color: #FFFCF6;
+            padding-left:10px;
+        }
+        .reserve{
+            margin-top: 25px;
+            margin-left: 585px;
+            background: #DC9B39;
+            border-radius: 20px;
+            width: 300px;
+            padding: 10px;
+            font-family: 'ABeeZee';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 30px;
+            text-transform: uppercase;
+            color: #FFFCF6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="block1">
+    <div class="logo">
+        <a class="title" href="http://localhost:63342/%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B02/public/homepage.html#">FERENC</a>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="http://localhost:63342/%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B02/public/homepage.html">Головна</a></li>
+            <li><a href="http://localhost:63342/%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B02/public/about.html">Про готель</a></li>
+            <li><a href="http://localhost:63342/%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B02/public/rooms.html">Номери</a></li>
+            <li><a href="http://localhost:63342/%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B02/public/restaurant.html">Ресторан</a></li>
+            <li><a href="http://localhost:63342/%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B02/public/services.html">Послуги</a></li>
+            <li><a href="http://localhost:63342/%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B02/public/homepage.html#contacts">Контакти</a></li>
+        </ul>
+    </nav>
+    <div class="logo">
+        <span class="tel">+38 067 113 6767</span>
+    </div>
+</div>
+<p class="address1">вул. Ференца Ліста, 4, Львів</p>
+<div class="block2">
+    <h1 class="main_title">БРОНЮВАННЯ</h1>
+</div>
+<div class="application">
+
+        <div class="labels">
+                <label for="arrival">Дата заїзду:</label><br>
+                <label for="departure">Дата відʼїзду:</label><br>
+            <label for="name">Імʼя:</label><br>
+            <label for="surname">Прізвище:</label><br>
+            <label for="phone">Номер телефону:</label><br>
+                <label for="room_type">Оберіть номер:</label><br>
+        </div>
+    <form action="/users" method="POST" id="bookingform">
+        <div class="answers">
+                <input type="date" id="arrival" name="arrival" required><br>
+                <input type="date" id="departure" name="departure" required><br>
+            <input type="text" id="name" name="name" required pattern="[А-ЯІЇЄа-яіїєA-Za-z]+"><br>
+            <input type="text" id="surname" name="surname" required pattern="[А-ЯІЇЄа-яіїєA-Za-z]+"><br>
+            <input type="tel" id="phone" name="phone" required pattern="\+380\d{9}" placeholder="+380" title="Please enter a 9-digit phone number"><br>
+                <select id="room_type" name="room_type" required>
+                  <option value="roomone">Одномісний</option>
+                  <option value="roomtwo">Двомісний</option>
+                  <option value="roomthree">Твін</option>
+                  <option value="roomfour">Напівлюкс</option>
+                </select><br>
+        </div>
+        <input type="submit" id="subbtn" class="reserve" style="margin-left:30px;">
+
+    </form>
+    <script>
+    var adate;
+        document.getElementById("arrival").addEventListener("change", function() {
+            var currentDate = new Date();
+            var futureDate = new Date();
+            futureDate.setFullYear(futureDate.getFullYear() + 2);
+            var selectedDate = new Date(document.getElementById("arrival").value);
+            adate=selectedDate;
+            if (selectedDate > futureDate || selectedDate < currentDate) {
+                document.getElementById("arrival").setCustomValidity("Оберіть іншу дату");
+            } else {
+                document.getElementById("arrival").setCustomValidity("");
+            }
+        });
+        document.getElementById("departure").addEventListener("change", function() {
+            var currentDate = new Date();
+            var futureDate = new Date();
+            futureDate.setFullYear(futureDate.getFullYear() + 2);
+            var selectedDate = new Date(document.getElementById("departure").value);
+
+            if (selectedDate > futureDate || selectedDate < currentDate || selectedDate<adate) {
+                document.getElementById("departure").setCustomValidity("Оберіть іншу дату");
+            } else {
+                document.getElementById("departure").setCustomValidity("");
+            }
+        });
+    </script>
+</div>
+
+</body>
+</html>

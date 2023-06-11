@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронювання</title>
+  <link rel="stylesheet" href="style(form).css">
+</head>
+<body>
+<div class="block1">
+  <div class="logo">
+    <span class="title">FERENC</span>
+  </div>
+  <nav class="menu">
+    <ul>
+      <li><a href="homepage.html">Головна</a></li>
+      <li><a href="about.html">Про готель</a></li>
+      <li><a href="rooms.html">Номери</a></li>
+      <li><a href="restaurant.html">Ресторан</a></li>
+      <li><a href="services.html">Послуги</a></li>
+      <li><a href="homepage.html#contacts">Контакти</a></li>
+    </ul>
+  </nav>
+  <div class="logo">
+    <span class="tel">+38 067 113 6767</span>
+  </div>
+</div>
+<p class="address1">вул. Ференца Ліста, 4, Львів</p>
+<div class="block2">
+  <h1 class="main_title">БРОНЮВАННЯ</h1>
+</div>
+<div class="application">
+  <form action="connect.php" method="post">
+  <div class="labels">
+<!--    <label for="arrival">Дата заїзду:</label><br>-->
+<!--    <label for="departure">Дата відʼїзду:</label><br>-->
+    <label for="name">Імʼя:</label><br>
+    <label for="surname">Прізвище:</label><br>
+    <label for="phone">Номер телефону:</label><br>
+<!--    <label for="room-type">Оберіть номер:</label><br>-->
+  </div>
+  <div class="answers">
+<!--    <input type="date" id="arrival" name="arrival" required><br>-->
+<!--    <input type="date" id="departure" name="departure" required><br>-->
+    <input type="text" id="name" name="name" required><br>
+    <input type="text" id="surname" name="surname" required><br>
+    <input type="tel" id="phone" name="phone" required><br>
+<!--    <select id="room-type" name="room-type" required>-->
+<!--      <option value="one">Одномісний</option>-->
+<!--      <option value="two">Двомісний</option>-->
+<!--      <option value="three">Твін</option>-->
+<!--      <option value="four">Напівлюкс</option>-->
+<!--    </select><br>-->
+  </div>
+    <label for="subbtn">Забронювати</label><br>
+    <input type="submit" id="subbtn" class="reserve">
+  </form>
+  </div>
+  <button class="reserve">Забронювати</button>
+</div>
+</body>
+</html>

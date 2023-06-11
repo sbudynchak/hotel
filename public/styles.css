@@ -1,0 +1,165 @@
+body{
+    background-color: #6F6340;
+    margin: 0;
+}
+.block1{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin-right: 50px;
+    font-size: 16px;
+    color: #112734;
+}
+.logo{
+    margin-top: 15px;
+}
+.title{
+    font-family: 'Felidae';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #FFFCF6;
+    text-decoration: none;
+}
+nav a {
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.tel{
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+.address1{
+    margin-top:0;
+    display: flex;
+    justify-content: right;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FCD043;
+    margin-right: 30px;
+}
+.main_title{
+    font-family: 'Felidae';
+    margin-top:30px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160px;
+    display: flex;
+    align-items: center;
+    color: #FFFCF6;
+}
+.block2{
+    margin-left: 30px;
+    display:flex;
+    justify-content: space-between;
+}
+.block3{
+    display:block;
+    margin-bottom: 150px;
+}
+.title_descr{
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFCF6;
+    opacity: 0.8;
+    margin-top: 50px;
+}
+.info{
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FCD043;
+}
+.main_img{
+    margin-top: 45px;
+    width:50%;
+    height: 50%;
+}
+.first_row img{
+    margin-top: 50px;
+    width: 30%;
+    height: 30%;
+}
+.about_us{
+    display:block;
+}
+.first_row{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+.about_us h1{
+    margin-top: 40px;
+    font-family: 'Felidae';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    text-transform: uppercase;
+    color: #FCD043;
+}
+.about_us p{
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFCF6;
+    opacity: 0.64;
+}
+.second_row{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.second_row img{
+    margin-top: 20px;
+    width: 38%;
+    height: 38%;
+}
+
+.contacts{
+    margin-top:120px;
+    background-color: #232323;
+    padding-bottom:50px;
+}
+.contacts p{
+    text-align: center;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFCF6;
+}
+
